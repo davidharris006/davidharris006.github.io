@@ -3,6 +3,7 @@ body {
     font-family: "Signika", sans-serif;
     background-image: url("./assets/images/qbkls.png");
     color: grey;
+
 }
 
 p {
@@ -24,40 +25,15 @@ h1 {
     float: left;
     padding: 10px;
 }
-#portfolio-link {
-    width: 60px;
-    height: 25px;
-    position: fixed;
-    top: 35px;
-    right: 215px;
-    text-align: center;
-    float: left;
-    border-right: 1px solid grey;
-    padding-right: 10px;
-    font-size: 12px;
-}
 
-#contact-link {
-    width: 60px;
-    height: 25px;
-    position: fixed;
-    top: 35px;
-    right: 95px;
-    float: left;
-    text-align: center;
-    border-left: 1px solid grey;
-    padding-left: 5px;
-    font-size: 12px;
-   
+.flex-links {
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+    align-content: center;
 }
-#bio-link {
-    width: 60px;
-    height: 25px;
-    position: fixed;
-    top: 35px;
-    right: 150px;
-    float: left;
-    font-size: 12px;
+.flex-links div {
+    margin: 5px;
 }
 .top-bar {
     width: 100vw;
@@ -67,7 +43,7 @@ h1 {
     background-color: white;
     border-bottom: 3px solid #dddddd;
     z-index: 5;
-  
+  overflow: auto;
 }
 #namebox {
     height: 70px;
