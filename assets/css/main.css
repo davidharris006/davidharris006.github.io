@@ -1,0 +1,211 @@
+html {
+    width: 100%;
+}
+
+body {
+    overflow: auto;
+    font-family: "Signika", sans-serif;
+    background-image: url("../images/probackground.jpg");
+    background-size: cover;
+    color: #36393B;
+    width: 98vw;
+    margin-left: 5px;
+    margin-right:5px;
+}
+.fa-linkedin {
+    margin: 2px;
+    font-size:25px;
+}
+.fa-linkedin:hover {
+    font-size: 20px;
+    color: blue;
+}
+.fa-github-square {
+    margin: 2px;
+    font-size:25px;
+}
+.fa-github-square:hover {
+    font-size: 20px;
+    color: orange;
+}
+.fa-file {
+    margin: 2px;
+    font-size:25px;
+}
+.fa-file:hover {
+    font-size: 20px;
+    color: red;
+}
+#gitHubimg {
+    width: 300px;
+    height: 100px;
+    margin: 25px;
+}
+label{
+    margin: 15px;
+}
+#linkedinimg {
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+}
+#resumeimg {
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+}
+
+p {
+    margin: 15px;
+}
+h1 {
+    height: auto;
+   position: absolute;
+    padding-left: 5px;
+    font-size: 30px;
+    font-family: "Signika", Times, Times New Roman, serif;
+    position: absolute;
+    color:white;
+    text-align: center;
+}
+#bioimg {
+    height: 150px;
+    width: 150px;
+    float: left;
+    padding: 10px;
+}
+
+.flex-links {
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+    align-content: center;
+}
+.flex-links div {
+    margin: 5px;
+}
+.top-bar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.527);
+    border: 3px solid #36393B;
+    z-index: 5;
+    overflow: auto;
+    margin: 0;
+  
+}
+#namebox {
+    height: 70px;
+    width: 220px;
+    background-color: #4aaaa5;
+    border: 3px solid #36393B;
+    border-bottom: 0;
+    align-self: flex-end;
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+}
+textarea {
+    width: 85%;
+    height: 300px;
+   
+}
+.form-center {
+    margin: 10px 50px 0px 50px;
+}
+.main-box {
+    width: 960px;
+    height: 600px;
+    margin: 120px auto;
+    
+    background-color:rgba(255, 255, 255, 0.75);
+    border: 3px solid #36393B;
+}
+.aboutme-header {
+    width: 190px; 
+    height: 40px;
+    top: 10px;
+    position: relative;
+    left: 10px;
+    color: #36393B;
+}
+a {
+    color: #36393B;
+
+}
+a:hover {
+    font-size: 18px;
+    color: #307473;
+}
+input {
+    margin: 5px;
+}
+.div-bars1 {
+    width: 200px;
+    height: 20px;
+    background-color: #4aaaa58f;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.div-bars1:hover {
+    font-size: 22px;
+    width: 200px;
+    height: 30px;
+    color: black;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:  url("./assets/images/city-q-c-200-200-7.jpg");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+#travelappbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:  url("../images/airportimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border-radius: 5px;
+}
+#triviagamebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:  url("../images/Triviagameimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border-radius: 5px;
+}
+#crystalgamebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:  url("../images/crystalgameimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border-radius: 5px;
+}
+.img-div {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}

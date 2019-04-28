@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css">
     <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
+
 <body>
-        <div class="top-bar">
-                <div id="namebox">
-                <h1> David Harris </h1></div>
-              
-                <div class="flex-links">
-                    <div><a href="./portfolio.html">Portfolio</a></div>
-                    <div><a href="./contact.html">Contact</a></div>
-                    <div> <a href="./index.html">About</a></div>
+    <div class="top-bar">
+        <div class="linkbox">
+
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github-square"></i>
+            <i class="fas fa-file"></i>
+            <div id="namebox">
+                <h1> David Harris </h1>
             </div>
         </div>
-        <div class="main-box">
-                <section class="aboutme-header">
-                <h2>Contact:</h2>
-                </section>
-                <hr>
-                   <div class="form-center"><form action="">
-                       Name:<br>
-                       <input type="text" name="fullname"><br>
-                       Email:<br>
-                       <input type="text" name="email"><br>
-                       Message:<br>
-                      <textarea name="emailmessage" id="" cols="30" rows="10"></textarea>
-                      
-                       <br>
-                       <br>
-                       <input type="submit" value="Submit">
-                   </form></div>
-            
+
+        <div class="flex-links">
+            <div><a href="./portfolio.html">Portfolio</a></div>
+            <div><a href="./contact.html">Contact</a></div>
+            <div> <a href="./index.html">About</a></div>
+        </div>
     </div>
+
+    <div class="main-box">
+        <section class="aboutme-header">
+            <h2>Contact:</h2>
+        </section>
+        <hr>
+        <p>Email: Davidharris006@gmail.com</p>
+        
+        <img src="./assets/images/github-logo.png" id="gitHubimg" alt="">
+        <img src="./assets/images/linkedin-logo-icon.png" id="linkedinimg" alt="">
+        <img src="./assets/images/resume-icon.png" id="resumeimg" alt="">
+        
+
+        </div>
+        <!-- jQuery link -->
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
