@@ -17,7 +17,7 @@ body {
     font-size:25px;
 }
 .fa-linkedin:hover {
-    font-size: 20px;
+    font-size: 30px;
     color: blue;
 }
 .fa-github-square {
@@ -25,7 +25,7 @@ body {
     font-size:25px;
 }
 .fa-github-square:hover {
-    font-size: 20px;
+    font-size: 30px;
     color: orange;
 }
 .fa-file {
@@ -33,7 +33,7 @@ body {
     font-size:25px;
 }
 .fa-file:hover {
-    font-size: 20px;
+    font-size: 30px;
     color: red;
 }
 #gitHubimg {
