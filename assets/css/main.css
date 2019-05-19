@@ -155,7 +155,7 @@ input {
     font-size: 22px;
     width: 200px;
     height: 30px;
-    color: black;
+    color: red;
 }
 .flex-container {
     display: flex;
@@ -184,6 +184,18 @@ input {
     flex-direction: column;
     justify-content: center;
     background-image:  url("../images/Triviagameimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border-radius: 5px;
+}
+#bamazonbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:  url("../images/bamazon.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 200px;

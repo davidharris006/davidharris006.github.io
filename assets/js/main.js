@@ -1,7 +1,11 @@
 $(document).ready(function () {
 
     $('#travelappbox').on('click', function () {
-        window.open('https://davidharris006.github.io/Project1')
+        window.open('https://davidharris006.github.io/Travelplanner/')
+
+    })
+    $('#bamazonbox').on('click', function () {
+        window.open('https://github.com/davidharris006/bAmazon/')
 
     })
     $('#triviagamebox').on('click', function () {
