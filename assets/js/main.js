@@ -16,6 +16,10 @@ $(document).ready(function () {
         window.open('https://davidharris006.github.io/unit-4-game/')
 
     })
+    $('#eatdaburgerBox').on('click', function () {
+        window.open('https://dharris006-eatdaburger.herokuapp.com/')
+
+    })
     $('.fa-linkedin').on('click', function () {
         window.open('https://www.linkedin.com/in/david-harris-634047127')
     })
