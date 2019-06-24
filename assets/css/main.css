@@ -203,6 +203,18 @@ input {
     margin: 30px;
     border-radius: 5px;
 }
+#pubcrawlbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:  url("../images/pubcrawlimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border-radius: 5px;  
+}
 #eatdaburgerBox {
     display: flex;
     flex-direction: column;
