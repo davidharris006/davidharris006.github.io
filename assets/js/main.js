@@ -16,7 +16,7 @@ $(document).ready(function () {
         window.open('https://davidharris006.github.io/unit-4-game/')
 
     })
-    $('#pubcrwalbox').on('click', function () {
+    $('#pubcrawlbox').on('click', function () {
         window.open('https://dairyquery-pubcrawl.herokuapp.com/')
 
     })
