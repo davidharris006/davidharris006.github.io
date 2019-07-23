@@ -21,7 +21,7 @@ $(document).ready(function () {
 
     })
     $('#memorygamebox').on('click', function () {
-        window.open('https://davidharris006.github.io/memorygame/')
+        window.open('https://davidharris006.github.io/MgutemoryGame/')
 
     })
     $('#eatdaburgerBox').on('click', function () {
