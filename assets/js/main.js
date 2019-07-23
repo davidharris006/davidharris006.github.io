@@ -20,6 +20,10 @@ $(document).ready(function () {
         window.open('https://dairyquery-pubcrawl.herokuapp.com/')
 
     })
+    $('#memorygamebox').on('click', function () {
+        window.open('https://davidharris006.github.io/memorygame/')
+
+    })
     $('#eatdaburgerBox').on('click', function () {
         window.open('https://dharris006-eatdaburger.herokuapp.com/')
 
