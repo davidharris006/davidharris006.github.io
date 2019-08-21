@@ -74,6 +74,10 @@ h1 {
     float: left;
     padding: 10px;
 }
+.center-text {
+    text-align: center;
+
+}
 
 .flex-links {
     display: flex;
