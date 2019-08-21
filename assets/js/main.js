@@ -21,7 +21,11 @@ $(document).ready(function () {
 
     })
     $('#memorygamebox').on('click', function () {
-        window.open('https://davidharris006.github.io/MgutemoryGame/')
+        window.open('https://davidharris006.github.io/MemoryGame/')
+
+    })
+    $('#triptabbox').on('click', function () {
+        window.open('https://ayadav-triptab.herokuapp.com/')
 
     })
     $('#eatdaburgerBox').on('click', function () {
